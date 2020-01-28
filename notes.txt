@@ -1,0 +1,21 @@
+Operator -> + 
+    Can be used to add numbers and concatenate strings which previously we used to add numbers. 
+    Operator is determined by the type of its operands.
+    An operator which can work on different types is called an overloaded operator.
+
+Casting 
+    Allows implicit casting from a smaller-range numeric primitive data type to a larger-range one 
+
+    int a = 1;  double b; b = a;
+    will work.
+
+    double a = 1.4; int b; b = a;
+    will not - the compiler will warn that the incompatible dataypes will result in a lossy operation, i.e. the .4 will be lost.
+    If you actually want to lose the .4 you need to explicitly cast.
+    double d = 99.07;   long l = (long)d;
+
+If v Switch
+    The if statement tests one statement and chooses between two pieces of code based on the result. 
+    Testing for a variety of possible values and take action depending on them: Called a multi-way conditional statement. 
+    The switch construct allows us to do this by testing a value and executing statement(s) according to its various possible values.
+    The switch statement only switches on a restricted range of datatypes: byte, short, char, int and String
