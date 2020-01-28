@@ -19,3 +19,14 @@ If v Switch
     Testing for a variety of possible values and take action depending on them: Called a multi-way conditional statement. 
     The switch construct allows us to do this by testing a value and executing statement(s) according to its various possible values.
     The switch statement only switches on a restricted range of datatypes: byte, short, char, int and String
+
+Types    
+    A named idea which can be defined with different values and supporting one or more operations is a type. 
+    Java provides us with some built-in types (int, String, etc), but applications also need custom types. 
+    E.g. Application selling flight tickets will need a type to represent a ticket. 
+        A ticket could have values for the type of journey (air, sea, rail), start point, end point, cost, etc. 
+        The ticket could support methods like checking if it was paid, cancelling a ticket and issuing a refund, etc.
+    
+Class
+    A class can be regarded as a defining pattern or template of a type of object.
+    Used to define an objects characteristics and behaviour.
