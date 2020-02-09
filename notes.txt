@@ -30,3 +30,21 @@ Types
 Class
     A class can be regarded as a defining pattern or template of a type of object.
     Used to define an objects characteristics and behaviour.
+
+Useful packages:
+    java.lang
+        Core support for language features
+    java.io
+        Provides basic I/O to the file system
+    java.net
+        Code that lets you implement network applications
+    java.util
+        Contains data structures (e.g. a tree, a set, a map) and common operations on them.
+        Subpackage:
+            java.util.regex
+               Regular expression patterns
+    java.sql
+        Tools for database access.
+    
+    Full list of packages: https://docs.oracle.com/javase/8/docs/api/index.html
+
