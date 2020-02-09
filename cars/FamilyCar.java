@@ -11,7 +11,7 @@ public class FamilyCar extends RealCar {
                      String make, 
                      int noCupHolders, 
                      boolean childLock) {
-      super(engine, registrationNumber, make);       
+      super(engine, make, registrationNumber);       
       this.entertainmentSystem = entertainmentSystem;
       this.noCupHolders = noCupHolders;
       this.childLock = childLock;

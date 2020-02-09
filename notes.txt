@@ -48,3 +48,19 @@ Useful packages:
     
     Full list of packages: https://docs.oracle.com/javase/8/docs/api/index.html
 
+Java Pros 
+https://www.technotification.com/2016/07/java-best-programming-language.html 
+    1. Object Orientation
+    2. Rich API
+    3. Great collection of Open Source libraries
+    4. Platform Independent and Free
+    5. Wonderful Community and Documentation
+
+Java Cons
+https://www.reddit.com/r/programming/comments/9dzpu/ask_reddit_why_does_everyone_hate_java/ 
+    Verbose and repetitive
+    Factory classes
+    Writing Java when coming from another high level language feels like you are stuttering, it is very repetitive.
+    Boilerplate
+    Everything is a nail. The fact that everything is a class (except for the things that aren't) will give you a rough time of things once you really start trying to be tricky. 
+        You can work around these with anonymous classes and reflection, but again, it's an extremely verbose way of doing things that adds more code which clouds the actual important code.

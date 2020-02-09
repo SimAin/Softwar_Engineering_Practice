@@ -19,5 +19,6 @@ public class converter {
 
       System.out.println ("Sum is " + sum);
     }
+
 }
 
