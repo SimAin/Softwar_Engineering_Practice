@@ -4,7 +4,7 @@ public class ModelCar {
     String engine;
 
     ModelCar(String engine) {
-        this.engine = engine;  // <1>
+        this.engine = engine;
     }
 
     String write() {

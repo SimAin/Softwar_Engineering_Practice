@@ -17,17 +17,23 @@ public class FamilyCar extends RealCar {
       this.childLock = childLock;
     }
   
-    // get entertainmentSystem 
+    /**
+     * @return the entertainmentSystem
+     */
     public String getEntertainmentSystem() {
         return entertainmentSystem;
     }
 
-    // get noCupHolders 
+    /**
+     * @return the noCupHolders
+     */
     public int getNoCupHolders() {
         return noCupHolders;
     }
 
-    // get childLock 
+    /**
+     * @return the childLock
+     */
     public boolean getChildLock() {
         return childLock;
     }

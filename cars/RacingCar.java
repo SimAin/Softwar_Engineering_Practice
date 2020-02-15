@@ -2,15 +2,16 @@ package cars;
 
 public class RacingCar {
     String name;
-    RacingCar(String name) {                          // <1>
+    RacingCar(String name) {
             this.name = name;
     }
-    RacingCar() {                                      // <2>
-            this("Brabham");                           // <3>
+    RacingCar() {
+            this("Brabham");
     }
     public static void main(String args[]) {
-            RacingCar car1 = new RacingCar("Ferrari"); // <4>
-            RacingCar car2 = new RacingCar();          // <5>
+            //TODO: move to unit tests. 
+            RacingCar car1 = new RacingCar("Ferrari");
+            RacingCar car2 = new RacingCar();
     }
 }
 

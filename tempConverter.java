@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class methods {
+public class tempConverter {
 
     public static void main(String[] args) throws Exception {
         runCelsiusToFahrenheit(0, 100);
@@ -18,7 +18,7 @@ public class methods {
         System.out.println("Input a skip temp for conversion");
         int skip = input.nextInt();
         fahrenheitToCelsius(low,high,skip);
-
+        input.close();
     }
 
     static double convertCelsiusToFahrenheit (double celsius) {

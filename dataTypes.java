@@ -1,4 +1,4 @@
-public class helloWorld {
+public class dataTypes {
 
     //
     public static void main(String[] args){
@@ -8,7 +8,7 @@ public class helloWorld {
         floatDemo();
     }
 
-    public static void dataTypes(){
+    public static void dataTypeExamples(){
         //Byte
         //-128 to +127
         byte a = 1;

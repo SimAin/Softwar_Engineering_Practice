@@ -1,4 +1,4 @@
-public class converter {
+public class dataTypeConverter {
 
     public static int readNumber (String str) {
         int result = 0;
