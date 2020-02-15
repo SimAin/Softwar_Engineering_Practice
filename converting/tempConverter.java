@@ -1,3 +1,5 @@
+package converting;
+
 import java.util.Scanner;
 
 public class tempConverter {
@@ -21,11 +23,16 @@ public class tempConverter {
         input.close();
     }
 
-    static double convertCelsiusToFahrenheit (double celsius) {
-        return (celsius * 9 / 5) + 32;
+    public static double convertCelsiusToFahrenheit (double celsius) throws Exception {
+        try{
+            return (celsius * 9 / 5) + 32;
+        } catch (NullPointerException ex) {
+            throw new Exception("Input cannot be null, input a double or int");
+        }
+        
     }
 
-    static void runCelsiusToFahrenheit (int min, int max ) {
+    public static void runCelsiusToFahrenheit (int min, int max ) throws Exception {
         double smallest = 0;
         double largest = 100;
 
@@ -36,11 +43,11 @@ public class tempConverter {
         }
     }
 
-    static double convertFahrenheitToCelsius (double fahrenheit) {
+    public static double convertFahrenheitToCelsius (double fahrenheit) {
         return (fahrenheit -32) / 9 * 5;
     }
 
-    static void runFahrenheitToCelsius (int min, int max ) {
+    public static void runFahrenheitToCelsius (int min, int max ) {
         double smallest = 32;
         double largest = 212;
 
@@ -51,11 +58,11 @@ public class tempConverter {
         }
     }   
 
-    static double fahrenheitToCelsius (int fahrenheit) {
+    public static double fahrenheitToCelsius (int fahrenheit) {
         return (fahrenheit -32) / 9 * 5;
     }
 
-    static void fahrenheitToCelsius (int low, int high, int skip) throws Exception {
+    public static void fahrenheitToCelsius (int low, int high, int skip) throws Exception {
         Exception e = new Exception();
         if (low > high) {
             throw e;
@@ -63,8 +70,6 @@ public class tempConverter {
         if (skip > (high-low)) {
             throw e;
         }
-        
-        int i = low;
 
         for (int w = low; w <= high; w += skip) {
             System.out.print(w + " in celsius = ");

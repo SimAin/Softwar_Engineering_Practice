@@ -27,7 +27,7 @@ public class TestMyCar {
 
 
         RealCar myCar2 = new RealCar("Diesel", "BMW" ,"DEF 123G");
-        RealCar myCar4 = new RealCar("Diesel", "BMW" ,"EFF 123G");
+        new RealCar("Diesel", "BMW" ,"EFF 123G");
 
         System.out.println(myCar2.getMake());
         System.out.println(myCar2.getReg());
