@@ -9,11 +9,6 @@ import org.junit.Test;
 
 import converting.tempConverter;
 
-
-/**
- *
- * @author peter
- */
 public class tempConverterTests {
 
     public tempConverterTests() {
@@ -89,5 +84,8 @@ public class tempConverterTests {
         double expResult =392.0;
         double result = tempConverter.convertCelsiusToFahrenheit(celsius);
         assertEquals(expResult, result, 0.0);
+        Exception p = new Exception("Input cannot be null, input a double or int");
+        //assertThrows(p);
+								
     }
 }
