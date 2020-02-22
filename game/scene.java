@@ -59,6 +59,16 @@ public class scene {
     return count;
   }
 
-
+  /** search the cells for spesific terrain */
+  public boolean searchItem(String search) {
+    for (int i = 0; i < height; i++) {
+        for (int j = 0; j < width; j++) {
+            if (getTerrain(i, j) == search) {
+              return true;
+            }
+        }
+    }
+    return false;
+  }
 }
 

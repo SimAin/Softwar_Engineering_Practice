@@ -76,6 +76,17 @@ public class sceneTests {
     }
 
     @Test
+    public void testSearchTerrain() {
+        scene scene = new scene (5, 3);
+        scene.addTerrain("G", 2, 1);
+        scene.addTerrain("T", 4, 2);
+        assertEquals(true, scene.searchItem("G"));
+        assertEquals(true, scene.searchItem("T"));
+        assertEquals(false, scene.searchItem("M"));
+        assertEquals(false, scene.searchItem("U"));
+    }
+
+    @Test
     public void testGetDistance() {
         scene scene = new scene (5, 4);
         scene.addDistance(2,1,3,4);

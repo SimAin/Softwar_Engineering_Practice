@@ -64,3 +64,9 @@ https://www.reddit.com/r/programming/comments/9dzpu/ask_reddit_why_does_everyone
     Boilerplate
     Everything is a nail. The fact that everything is a class (except for the things that aren't) will give you a rough time of things once you really start trying to be tricky. 
         You can work around these with anonymous classes and reflection, but again, it's an extremely verbose way of doing things that adds more code which clouds the actual important code.
+
+Rule of three 
+    ("Three strikes and you refactor") 
+    Code refactoring rule of thumb to decide when similar pieces of code should be refactored 
+        Two instances of similar code don't require refactoring
+        When similar code is used three times, it should be extracted into a new procedure. 

@@ -40,7 +40,7 @@ public class tempConverterTests {
         System.out.println("convertCelsiusToFahrenheit");
         double celsius = 0.0;
         double expResult =32.0;
-        double result = tempConverter.convertCelsiusToFahrenheit(celsius);
+        double result = tempConverter.celsiusToFahrenheit(celsius);
         assertEquals(expResult, result, 0.0);
     }
 
@@ -54,7 +54,7 @@ public class tempConverterTests {
         System.out.println("convertCelsiusToFahrenheit");
         double celsius = 200.0;
         double expResult =392.0;
-        double result = tempConverter.convertCelsiusToFahrenheit(celsius);
+        double result = tempConverter.celsiusToFahrenheit(celsius);
         assertEquals(expResult, result, 0.0);
 				}
 				
@@ -68,7 +68,7 @@ public class tempConverterTests {
         System.out.println("convertCelsiusToFahrenheit");
         int celsius = 5;
         double expResult =41.0;
-        double result = tempConverter.convertCelsiusToFahrenheit(celsius);
+        double result = tempConverter.celsiusToFahrenheit(celsius);
         assertEquals(expResult, result, 0.0);
 				}
 				
@@ -82,7 +82,7 @@ public class tempConverterTests {
         System.out.println("convertCelsiusToFahrenheit");
         double celsius = (Double) null;
         double expResult =392.0;
-        double result = tempConverter.convertCelsiusToFahrenheit(celsius);
+        double result = tempConverter.celsiusToFahrenheit(celsius);
         assertEquals(expResult, result, 0.0);
         Exception p = new Exception("Input cannot be null, input a double or int");
         //assertThrows(p);
